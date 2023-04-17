@@ -19,15 +19,15 @@ As the data analyst assigned I will be able to
 
 
 
-Deliverable 1: Perform ETL on Amazon Product Reviews (40 points)
+##Deliverable 1: Perform ETL on Amazon Product Reviews (40 points)
 
 Using your knowledge of the cloud ETL process, you’ll create an AWS RDS database with tables in pgAdmin, pick a dataset from the Amazon Review datasets, and extract the dataset into a DataFrame.
 
-Deliverable 2: Determine Bias of Vine Reviews (40 points)
+##Deliverable 2: Determine Bias of Vine Reviews (40 points)
 
-Deliverable 3: A Written Report on the Analysis (20 points)
+##Deliverable 3: A Written Report on the Analysis (20 points)
 
-Deliverable 3: A Written Report on the Analysis (20 points)
+##Deliverable 3: A Written Report on the Analysis (20 points)
 
 
 
@@ -42,7 +42,7 @@ Deliverable 3: A Written Report on the Analysis (20 points)
 4.	Download the challenge_schema.sql file to your computer.
 
 5.	In pgAdmin, run a new query to create the tables for your new database using the code from the challenge_schema.sql file.
-  o	After you run the query, you should have the following four tables in your database: customers_table, products_table, review_id_table, and vine_table.
+   o	After you run the query, you should have the following four tables in your database: customers_table, products_table, review_id_table, and vine_table.
 
 ![image](https://user-images.githubusercontent.com/117233641/232491611-b143a11d-fb8a-487b-81a4-29351a962160.png)
 
@@ -63,13 +63,13 @@ The customers_table DataFrame
 
 To create the customers_table, use the code in the Amazon_Reviews_ETL_starter_code.ipynb file and follow the steps below to aggregate the reviews by customer_id.
 
-•	Use the groupby() function on the customer_id column of the DataFrame you created in Step 7.
+ •	Use the groupby() function on the customer_id column of the DataFrame you created in Step 7.
 
-•	Count all the customer ids using the agg() function by chaining it to the groupby() function. After you use this function, a new column will be created, count(customer_id).
+ •	Count all the customer ids using the agg() function by chaining it to the groupby() function. After you use this function, a new column will be created, count(customer_id).
 
-•	Rename the count(customer_id) column using the withColumnRenamed() function so it matches the schema for the customers_table in pgAdmin.
+ •	Rename the count(customer_id) column using the withColumnRenamed() function so it matches the schema for the customers_table in pgAdmin.
 
-•	The final customers_table DataFrame should look like this:
+ •	The final customers_table DataFrame should look like this:
 ![image](https://user-images.githubusercontent.com/117233641/232493012-3df57187-6768-45b3-ab8c-bcd02c01e535.png)
 
 
@@ -98,6 +98,12 @@ Load the DataFrames into pgAdmin
 
 
 3.	In pgAdmin, run a query to check that the tables have been populated.
+![image](https://user-images.githubusercontent.com/117233641/232627074-96b0e6a3-af98-466e-b785-1b7441712ac2.png)
 
+
+![image](https://user-images.githubusercontent.com/117233641/232626980-3272c615-305b-4202-ac31-2f4f7925199d.png)
+
+
+![image](https://user-images.githubusercontent.com/117233641/232626894-962304a0-6c4c-4190-b2b7-b3bd10282fe8.png)
 
 
