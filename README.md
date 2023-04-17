@@ -24,9 +24,10 @@ As the data analyst assigned I will be able to
 ##Deliverable 2: Determine Bias of Vine Reviews (40 points)
 
 ##Deliverable 3: A Written Report on the Analysis (20 points)
-
-
-
+.
+.
+.
+.
 
 ##Deliverable 1: Perform ETL on Amazon Product Reviews (40 points)
 
