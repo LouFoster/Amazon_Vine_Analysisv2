@@ -3,25 +3,23 @@
 ##Purpose
 As the data analyst assigned I will be able to
  
- •	Define big data and describe the challenges associated with it.
+   •	Define big data and describe the challenges associated with it.
 
-•	Define Hadoop and name the main elements of its ecosystem.
+  •	Define Hadoop and name the main elements of its ecosystem.
 
-•	Explain how MapReduce processes data.
+  •	Explain how MapReduce processes data.
 
-•	Define Spark and explain how it processes data.
+  •	Define Spark and explain how it processes data.
 
-•	Describe how NLP collects and analyzes text data.
+  •	Describe how NLP collects and analyzes text data.
 
-•	Explain how to use AWS Simple Storage Service (S3) and relational databases for basic cloud storage.
+  •	Explain how to use AWS Simple Storage Service (S3) and relational databases for basic cloud storage.
 
-•	Complete an analysis of an Amazon customer review.
+  •	Complete an analysis of an Amazon customer review.
 
 
 
 ##Deliverable 1: Perform ETL on Amazon Product Reviews (40 points)
-
-Using your knowledge of the cloud ETL process, you’ll create an AWS RDS database with tables in pgAdmin, pick a dataset from the Amazon Review datasets, and extract the dataset into a DataFrame.
 
 ##Deliverable 2: Determine Bias of Vine Reviews (40 points)
 
@@ -59,7 +57,7 @@ Next, follow the steps below to transform the dataset into four DataFrames that 
 ![image](https://user-images.githubusercontent.com/117233641/232492095-35aac716-2920-473a-b572-7d66c0db0a76.png)
 
 
-The customers_table DataFrame
+##The customers_table DataFrame
 
 To create the customers_table, use the code in the Amazon_Reviews_ETL_starter_code.ipynb file and follow the steps below to aggregate the reviews by customer_id.
 
