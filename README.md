@@ -25,7 +25,6 @@ As the data analyst assigned I will be able to
 
 ##Deliverable 3: A Written Report on the Analysis (20 points)
 
-##Deliverable 3: A Written Report on the Analysis (20 points)
 
 
 
